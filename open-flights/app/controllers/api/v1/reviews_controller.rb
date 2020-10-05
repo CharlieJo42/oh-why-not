@@ -1,6 +1,8 @@
 module Api
     module V1
         class ReviewsController < ApplicationControllers
+            protect_from_forgery with: :null_session
+
 
             def create
                 review = Review.new(review_params)
