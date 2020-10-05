@@ -24,3 +24,50 @@ FOREIGN KEY ("airline_id")
   [1m[35m (17.3ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_advisory_unlock(6955072516161093450)[0m
   [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.7ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "United Airlines"], ["image_url", "https://open-flights.s3.amazonaws.com/United-Airlines.png"], ["slug", "united-airlines"], ["created_at", "2020-10-05 19:13:20.116984"], ["updated_at", "2020-10-05 19:13:20.116984"]]
+  [1m[35m (28.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.3ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Southwest"], ["image_url", "https://open-flights.s3.amazonaws.com/Southwest-Airlines.png"], ["slug", "southwest"], ["created_at", "2020-10-05 19:13:20.178502"], ["updated_at", "2020-10-05 19:13:20.178502"]]
+  [1m[35m (4.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.4ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Delta"], ["image_url", "https://open-flights.s3.amazonaws.com/Delta.png"], ["slug", "delta"], ["created_at", "2020-10-05 19:13:20.188710"], ["updated_at", "2020-10-05 19:13:20.188710"]]
+  [1m[35m (4.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.4ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Alaska Airlines"], ["image_url", "https://open-flights.s3.amazonaws.com/Alaska-Airlines.png"], ["slug", "alaska-airlines"], ["created_at", "2020-10-05 19:13:20.200426"], ["updated_at", "2020-10-05 19:13:20.200426"]]
+  [1m[35m (11.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.4ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "JetBlue"], ["image_url", "https://open-flights.s3.amazonaws.com/JetBlue.png"], ["slug", "jetblue"], ["created_at", "2020-10-05 19:13:20.225296"], ["updated_at", "2020-10-05 19:13:20.225296"]]
+  [1m[35m (8.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.5ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "American Airlines"], ["image_url", "https://open-flights.s3.amazonaws.com/American-Airlines.png"], ["slug", "american-airlines"], ["created_at", "2020-10-05 19:13:20.247343"], ["updated_at", "2020-10-05 19:13:20.247343"]]
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.4ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "United Airlines"], ["image_url", "https://open-flights.s3.amazonaws.com/United-Airlines.png"], ["slug", "united-airlines"], ["created_at", "2020-10-05 19:14:35.514352"], ["updated_at", "2020-10-05 19:14:35.514352"]]
+  [1m[35m (21.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.3ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Southwest"], ["image_url", "https://open-flights.s3.amazonaws.com/Southwest-Airlines.png"], ["slug", "southwest"], ["created_at", "2020-10-05 19:14:35.554943"], ["updated_at", "2020-10-05 19:14:35.554943"]]
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.4ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Delta"], ["image_url", "https://open-flights.s3.amazonaws.com/Delta.png"], ["slug", "delta"], ["created_at", "2020-10-05 19:14:35.566690"], ["updated_at", "2020-10-05 19:14:35.566690"]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.4ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Alaska Airlines"], ["image_url", "https://open-flights.s3.amazonaws.com/Alaska-Airlines.png"], ["slug", "alaska-airlines"], ["created_at", "2020-10-05 19:14:35.578927"], ["updated_at", "2020-10-05 19:14:35.578927"]]
+  [1m[35m (10.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.4ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "JetBlue"], ["image_url", "https://open-flights.s3.amazonaws.com/JetBlue.png"], ["slug", "jetblue"], ["created_at", "2020-10-05 19:14:35.602871"], ["updated_at", "2020-10-05 19:14:35.602871"]]
+  [1m[35m (8.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAirline Create (0.4ms)[0m  [1m[32mINSERT INTO "airlines" ("name", "image_url", "slug", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "American Airlines"], ["image_url", "https://open-flights.s3.amazonaws.com/American-Airlines.png"], ["slug", "american-airlines"], ["created_at", "2020-10-05 19:14:35.625558"], ["updated_at", "2020-10-05 19:14:35.625558"]]
+  [1m[35m (8.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mReview Create (1.0ms)[0m  [1m[32mINSERT INTO "reviews" ("title", "description", "score", "airline_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Great airline"], ["description", "I had a lovely time."], ["score", 5], ["airline_id", 7], ["created_at", "2020-10-05 19:14:35.676482"], ["updated_at", "2020-10-05 19:14:35.676482"]]
+  [1m[35m (19.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("title", "description", "score", "airline_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Bad airline"], ["description", "I had a bad time."], ["score", 1], ["airline_id", 7], ["created_at", "2020-10-05 19:14:35.710844"], ["updated_at", "2020-10-05 19:14:35.710844"]]
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mAirline Load (0.4ms)[0m  [1m[34mSELECT "airlines".* FROM "airlines" ORDER BY "airlines"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "airlines"[0m
