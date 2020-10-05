@@ -1,0 +1,2 @@
+  [1m[35m (1039.2ms)[0m  [1m[35mCREATE DATABASE "open_flights_development" ENCODING = 'unicode'[0m
+  [1m[35m (772.2ms)[0m  [1m[35mCREATE DATABASE "open_flights_test" ENCODING = 'unicode'[0m
